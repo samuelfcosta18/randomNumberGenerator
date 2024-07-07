@@ -7,4 +7,4 @@
   <img height="40" width="40" src="https://cdn.simpleicons.org/javascript/32f0ff"/> 
 </p>
 
-<h2>You can visualize the project <a href="https://samuelfcosta18.github.io/randomNumberGenerator/" target="_blank"></a></h2>
+<h2 align="center">You can visualize the project <a href="https://samuelfcosta18.github.io/randomNumberGenerator/" target="_blank">here</a></h2>
