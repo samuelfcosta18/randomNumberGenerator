@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+input.inputs {
+    border: 1px solid #000000;
+    color: #000000;
+    background-color: #ffffff;
+    border-radius: 5px;
+    height: 5vh;
+    width: 15vw;
+}
+input#valor1 {
+    margin-top: 2vh;
+}
+p#title {
+    font-size: 20px;
+    font-weight: 600;
+}
+main.form {
+    background-color: blue;
+    height: 30vh;
+    width: 20vw;
+    border-radius: 5%;
+    text-align: center;
+    margin: 35vh 0 0 40vw;
+    font-family: "JetBrains Mono", monospace;
+}
+body#corpo {
+    display: block;
+}
+button#botao1 {
+    border: 1px solid black;
+    background-color: red;
+    color: #000000;
+    height: 5vh;
+    width: 5vw;
+    border-radius: 5px;
+    margin-top: 4vh;
+    cursor: pointer;
+}
+button:hover {
+    background-color: blue;
+    transform: scale(1.1);
+    transition: 100ms;
+    border-radius: 5px;
+}
+@media only screen and (max-device-width: 480px) and (orientation: portrait) {
+    main.form {
+        width: 80vw;
+        height: auto;
+        margin: 30vh 0 0 10vw;
+    }
+    input.inputs {
+        width: 45vw;
+    }
+    button#botao1 {
+        width: 20vw;
+    }
+    button:hover {
+        transform: none;
+    }
+
+}
