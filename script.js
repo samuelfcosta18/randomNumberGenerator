@@ -1,9 +1,11 @@
 function randomNumber() {
-    input2 = document.getElementById("valor2").value
-    input3 = document.querySelector("#generatedNumber")
+    let input1 = document.getElementById("valor1").value
+    let input2 = document.querySelector("#valor2").value
+    let resultado = document.querySelector("#generatedNumber")
 
-    max = input2
-    const result = Math.floor(Math.random()*max)
+    const min = Math.floor(input1)
+    const max = Math.floor(input2)
+    const result = Math.floor(Math.random() * (max - min)) + min
     console.log(result)
-    input3.value = `${result}`
+    resultado.value = `${result}`
 }

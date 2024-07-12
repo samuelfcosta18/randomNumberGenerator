@@ -19,8 +19,8 @@ p#title {
 }
 main.form {
     background-color: blue;
-    height: 30vh;
-    width: 20vw;
+    height: auto;
+    width: 25vw;
     border-radius: 5%;
     text-align: center;
     margin: 35vh 0 0 40vw;
@@ -36,7 +36,6 @@ button#botao1 {
     height: 5vh;
     width: 5vw;
     border-radius: 5px;
-    margin-top: 4vh;
     cursor: pointer;
 }
 button:hover {
