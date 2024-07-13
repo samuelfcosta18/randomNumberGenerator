@@ -3,7 +3,7 @@
     box-sizing: border-box;
 }
 input.inputs {
-    border: 1px solid #000000;
+    border: 2px solid #000000;
     color: #000000;
     background-color: #ffffff;
     border-radius: 5px;
@@ -18,16 +18,16 @@ p#title {
     font-weight: 600;
 }
 main.form {
-    background-color: blue;
     height: auto;
     width: 25vw;
     border-radius: 5%;
     text-align: center;
-    margin: 35vh 0 0 40vw;
+    margin: 35vh 0 0 35vw;
     font-family: "JetBrains Mono", monospace;
 }
 body#corpo {
     display: block;
+    background-color: #0000ff;
 }
 button#botao1 {
     border: 1px solid black;
