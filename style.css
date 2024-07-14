@@ -44,6 +44,7 @@ button:hover {
     transition: 100ms;
     border-radius: 5px;
 }
+
 @media only screen and (max-device-width: 480px) and (orientation: portrait) {
     main.form {
         width: 80vw;

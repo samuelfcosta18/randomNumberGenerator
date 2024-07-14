@@ -9,6 +9,10 @@
     <script type="text/javascript" src="script.js"></script>
 </head>
 <body id="corpo">
+    <select id="language" onchange="changeLanguage()">
+        <option value="portuguese">pt-BR</option>
+        <option value="english" selected>en-US</option>
+    </select>
     <main class="form">
         <p id="title">Random Number Generator</p>
         <input id="valor1" placeholder="Insert here the minimum value" class="inputs"/>
@@ -16,7 +20,7 @@
         <br>
         <input id="valor2"type="text" placeholder="Insert here the maximum value" class="inputs"/>
         <br>
-        <p>The generated number is:</p>
+        <p id="number">The generated number is:</p>
         <input id="generatedNumber" class="inputs" value="0" readonly/>
         <br>
         <br>
